@@ -4,16 +4,17 @@ import Display from './Display';
 
 class App extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      result: 0
-    }
+      result: '0',
+    };
   }
-  
+
   render() {
+    const { result } = this.state;
     return (
       <div>
-        <Display result={this.state.result}/>
+        <Display result={result} />
         <ButtonPanel />
       </div>
     );
