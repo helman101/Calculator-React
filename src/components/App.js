@@ -4,8 +4,10 @@ import Display from './Display';
 
 const App = () => (
   <div>
-    <Display />
-    <ButtonPanel />
+    <>
+      <Display />
+      <ButtonPanel />
+    </>
   </div>
 );
 
