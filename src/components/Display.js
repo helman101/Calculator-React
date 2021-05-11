@@ -10,7 +10,7 @@ const Display = (props) => {
   );
 };
 
-Display.propTypes = { result: PropTypes.string.isRequired };
+Display.propTypes = { result: PropTypes.string };
 Display.defaultProps = { result: '0' };
 
 export default Display;
