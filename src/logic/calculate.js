@@ -1,30 +1,25 @@
-import operate from './operate'
+import operate from './operate';
 
 const calculate = ({ total, next, operation }, buttonName) => {
-  switch(buttonName) {
-
+  switch (buttonName) {
     case '+/-':
-        total *= -1
-        next *= -1
+      total *= -1;
+      next *= -1;
       break;
-    
-    case '.':
-      
-      break;
-    
-    case '=':
 
+    case '=':
+      total;
       break;
-    
+
     case 'AC':
       total = 0;
       next = 0;
       break;
 
     default:
-      operate(total, next, operation)
+      total = operate(total, next, operation);
       break;
   }
-}
+};
 
-export default calculate
+export default calculate;
