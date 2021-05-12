@@ -3,19 +3,19 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   let result;
   if (operation === '+') {
-    result = Big(numberOne) + Big(numberTwo);
+    result = Big(Number(numberOne) + Number(numberTwo));
   }
   if (operation === '-') {
-    result = Big(numberOne) - Big(numberTwo);
+    result = Big(Number(numberOne) - Number(numberTwo));
   }
   if (operation === 'X') {
-    result = Big(numberOne) * Big(numberTwo);
+    result = Big(Number(numberOne) * Number(numberTwo));
   }
   if (operation === '÷') {
-    result = Big(numberOne) / Big(numberTwo);
+    result = Big(Number(numberOne) / Number(numberTwo));
   }
   if (operation === '%') {
-    result = Big(numberOne) / 100;
+    result = (Big(Number(numberOne) / 100) * Number(numberTwo));
   }
   return result;
 };

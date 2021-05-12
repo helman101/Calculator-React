@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Display = (props) => {
-  const { result } = props;
+  const { total } = props;
   return (
     <div>
-      <p>{result}</p>
+      <p>{total}</p>
     </div>
   );
 };
 
-Display.propTypes = { result: PropTypes.string };
-Display.defaultProps = { result: '0' };
+Display.propTypes = { total: PropTypes.string };
+Display.defaultProps = { total: '0' };
 
 export default Display;
