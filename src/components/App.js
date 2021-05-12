@@ -16,7 +16,9 @@ class App extends React.Component {
   }
 
   handleClick(buttonName) {
-    
+    if (buttonName.to_i) {
+      console.log('hi')
+    }
   }
 
   render() {

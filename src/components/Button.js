@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = (props) => {
-  const { name } = props;
+  const { name, clickHandler } = props;
   return (
-    <button type="button">
+    <button onClick={clickHandler(name)} type="button">
       {name}
     </button>
   );
