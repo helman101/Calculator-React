@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Button from './Button';
+import * as styles from '../style.module.css';
 
 const ButtonPanel = (props) => {
   const { clickHandler } = props;
 
   return (
-    <div>
+    <div className={styles.DFlex}>
       <div>
         <>
           <Button clickHandler={clickHandler} name="AC" />

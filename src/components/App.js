@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
 import calculate from '../logic/calculate';
+import * as styles from '../style.module.css';
 
 const App = () => {
   const [state, setState] = useState({
@@ -34,7 +35,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className={`${styles.calculator} ${styles.DFlex}`}>
       <>
         <Display total={next === '' ? total : next} />
         <ButtonPanel clickHandler={handleClick} />

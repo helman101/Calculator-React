@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.DFlex {
+  display: flex;
+}
+
+.calculator {
+  width: 700px;
+}
