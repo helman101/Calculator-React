@@ -35,7 +35,7 @@ const App = () => {
   };
 
   return (
-    <div className={`${styles.calculator} ${styles.dFlex}`}>
+    <div className={`${styles.calculator} ${styles.dFlex} ${styles.flexColumn} ${styles.height100}`}>
       <>
         <Display total={next === '' ? total : next} />
         <ButtonPanel clickHandler={handleClick} />

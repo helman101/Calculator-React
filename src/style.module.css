@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  border: none;
+  background-color: none;
 }
 
 .dFlex {
@@ -16,21 +18,42 @@
   width: 700px;
 }
 
+.height100 {
+  height: 100px;
+  max-height: 100px;
+}
+
 
 .display {
   background-color: gray;
-  max-height: 100px;
   width: 100%;
   color: white;
   font-weight: bold;
   font-size: 2em;
-  padding: 4% 10px;
+  padding: 4% 15px;
 }
 
-.alignItemsCenter {
-  align-items: center;
+.justifyContentEnd {
+  justify-content: flex-end;
 }
 
-.justifyContentRight {
-  justify-content: right;
+.button {
+  height: 100%;
+  border: 1px solid lightgray;
+}
+
+.normalButton {
+  width: 25%;
+}
+
+.zeroButton {
+  width: 50%;
+}
+
+.lightGrayBG {
+  background-color: rgb(228, 228, 228);
+}
+
+.orangeBG {
+  background-color: orange;
 }

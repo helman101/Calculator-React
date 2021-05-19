@@ -7,43 +7,43 @@ const ButtonPanel = (props) => {
   const { clickHandler } = props;
 
   return (
-    <div className={styles.dFlex}>
-      <div>
+    <div className={`${styles.dFlex} ${styles.flexColumn}`}>
+      <div className={`${styles.height100}`}>
         <>
-          <Button clickHandler={clickHandler} name="AC" />
-          <Button clickHandler={clickHandler} name="+/-" />
-          <Button clickHandler={clickHandler} name="%" />
+          <Button color clickHandler={clickHandler} name="AC" />
+          <Button color clickHandler={clickHandler} name="+/-" />
+          <Button color clickHandler={clickHandler} name="%" />
           <Button clickHandler={clickHandler} name="÷" />
         </>
       </div>
-      <div>
+      <div className={`${styles.height100}`}>
         <>
-          <Button clickHandler={clickHandler} name="7" />
-          <Button clickHandler={clickHandler} name="8" />
-          <Button clickHandler={clickHandler} name="9" />
+          <Button color clickHandler={clickHandler} name="7" />
+          <Button color clickHandler={clickHandler} name="8" />
+          <Button color clickHandler={clickHandler} name="9" />
           <Button clickHandler={clickHandler} name="X" />
         </>
       </div>
-      <div>
+      <div className={`${styles.height100}`}>
         <>
-          <Button clickHandler={clickHandler} name="4" />
-          <Button clickHandler={clickHandler} name="5" />
-          <Button clickHandler={clickHandler} name="6" />
+          <Button color clickHandler={clickHandler} name="4" />
+          <Button color clickHandler={clickHandler} name="5" />
+          <Button color clickHandler={clickHandler} name="6" />
           <Button clickHandler={clickHandler} name="-" />
         </>
       </div>
-      <div>
+      <div className={`${styles.height100}`}>
         <>
-          <Button clickHandler={clickHandler} name="1" />
-          <Button clickHandler={clickHandler} name="2" />
-          <Button clickHandler={clickHandler} name="3" />
+          <Button color clickHandler={clickHandler} name="1" />
+          <Button color clickHandler={clickHandler} name="2" />
+          <Button color clickHandler={clickHandler} name="3" />
           <Button clickHandler={clickHandler} name="+" />
         </>
       </div>
-      <div>
+      <div className={`${styles.height100}`}>
         <>
-          <Button clickHandler={clickHandler} name="0" />
-          <Button clickHandler={clickHandler} name="." />
+          <Button color wide clickHandler={clickHandler} name="0" />
+          <Button color clickHandler={clickHandler} name="." />
           <Button clickHandler={clickHandler} name="=" />
         </>
       </div>
