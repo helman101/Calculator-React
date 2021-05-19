@@ -4,10 +4,33 @@
   box-sizing: border-box;
 }
 
-.DFlex {
+.dFlex {
   display: flex;
+}
+
+.flexColumn {
+  flex-direction: column;
 }
 
 .calculator {
   width: 700px;
+}
+
+
+.display {
+  background-color: gray;
+  max-height: 100px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 4% 10px;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.justifyContentRight {
+  justify-content: right;
 }

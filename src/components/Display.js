@@ -5,7 +5,7 @@ import * as styles from '../style.module.css';
 const Display = (props) => {
   const { total } = props;
   return (
-    <div className={styles.DFlex}>
+    <div className={`${styles.dFlex} ${styles.display}`}>
       <p>{total}</p>
     </div>
   );

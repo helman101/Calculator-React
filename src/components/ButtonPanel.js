@@ -7,7 +7,7 @@ const ButtonPanel = (props) => {
   const { clickHandler } = props;
 
   return (
-    <div className={styles.DFlex}>
+    <div className={styles.dFlex}>
       <div>
         <>
           <Button clickHandler={clickHandler} name="AC" />
