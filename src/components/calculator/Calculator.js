@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import ButtonPanel from './ButtonPanel';
 import Display from './Display';
-import calculate from '../logic/calculate';
-import * as styles from '../style.module.css';
+import calculate from '../../logic/calculate';
+import * as styles from '../../style.module.css';
 
 const Calculator = () => {
   const [state, setState] = useState({

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import * as styles from '../style.module.css';
+import * as styles from '../../style.module.css';
 
 const Display = (props) => {
   const { total } = props;
