@@ -5,7 +5,7 @@ import * as styles from '../../style.module.css';
 const Home = () => (
   <div>
     <Navbar />
-    <div className={`${styles.home}`}>
+    <div className={`${styles.home} ${styles.pages}`}>
       <h1>Welcome to our page!</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit,

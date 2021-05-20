@@ -27,7 +27,6 @@
   width: 100%;
 }
 
-
 .display {
   background-color: gray;
   width: 100%;
@@ -86,10 +85,13 @@
   justify-content: center;
 }
 
+.pages {
+  margin: 100px auto;
+}
+
 .home {
   max-width: 1200px;
   font-size: 1.2em;
-  margin: 100px auto;
 }
 
 .home p {
@@ -103,4 +105,9 @@
 
 .height90vh {
   height: 90vh;
+}
+
+.quote {
+  text-align: center;
+  font-size: 1.4em;
 }
