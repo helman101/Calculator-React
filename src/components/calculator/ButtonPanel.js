@@ -8,7 +8,7 @@ const ButtonPanel = (props) => {
 
   return (
     <div className={`${styles.dFlex} ${styles.flexColumn}`}>
-      <div className={`${styles.height100}`}>
+      <div className={`${styles.height100px}`}>
         <>
           <Button color clickHandler={clickHandler} name="AC" />
           <Button color clickHandler={clickHandler} name="+/-" />
@@ -16,7 +16,7 @@ const ButtonPanel = (props) => {
           <Button clickHandler={clickHandler} name="÷" />
         </>
       </div>
-      <div className={`${styles.height100}`}>
+      <div className={`${styles.height100px}`}>
         <>
           <Button color clickHandler={clickHandler} name="7" />
           <Button color clickHandler={clickHandler} name="8" />
@@ -24,7 +24,7 @@ const ButtonPanel = (props) => {
           <Button clickHandler={clickHandler} name="X" />
         </>
       </div>
-      <div className={`${styles.height100}`}>
+      <div className={`${styles.height100px}`}>
         <>
           <Button color clickHandler={clickHandler} name="4" />
           <Button color clickHandler={clickHandler} name="5" />
@@ -32,7 +32,7 @@ const ButtonPanel = (props) => {
           <Button clickHandler={clickHandler} name="-" />
         </>
       </div>
-      <div className={`${styles.height100}`}>
+      <div className={`${styles.height100px}`}>
         <>
           <Button color clickHandler={clickHandler} name="1" />
           <Button color clickHandler={clickHandler} name="2" />
@@ -40,7 +40,7 @@ const ButtonPanel = (props) => {
           <Button clickHandler={clickHandler} name="+" />
         </>
       </div>
-      <div className={`${styles.height100}`}>
+      <div className={`${styles.height100px}`}>
         <>
           <Button color wide clickHandler={clickHandler} name="0" />
           <Button color clickHandler={clickHandler} name="." />

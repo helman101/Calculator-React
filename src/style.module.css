@@ -18,9 +18,13 @@
   width: 700px;
 }
 
-.height100 {
+.height100px {
   height: 100px;
   max-height: 100px;
+}
+
+.width100 {
+  width: 100%;
 }
 
 
@@ -56,4 +60,24 @@
 
 .orangeBG {
   background-color: orange;
+}
+
+.navbar {
+  padding: 15px;
+  font-size: 1.2em;
+  box-shadow: 0 0 3px 3px gray;
+}
+
+.navbar a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.alignItemsCenter{
+  align-items: center;
+}
+
+.justifySpaceBetween {
+  justify-content: space-between;
 }
