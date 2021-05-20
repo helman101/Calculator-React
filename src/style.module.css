@@ -81,3 +81,26 @@
 .justifySpaceBetween {
   justify-content: space-between;
 }
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.home {
+  max-width: 1200px;
+  font-size: 1.2em;
+  margin: 100px auto;
+}
+
+.home p {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.home h1 {
+  margin-bottom: 50px;
+}
+
+.height90vh {
+  height: 90vh;
+}
