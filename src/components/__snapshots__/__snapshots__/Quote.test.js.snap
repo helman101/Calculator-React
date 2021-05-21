@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="undefined undefined undefined"
+>
+  <p>
+    Without mathematics, there’s nothing you can do.
+  </p>
+  <p>
+    Everything around you is mathematics.
+  </p>
+  <p>
+    Everything around you is numbers.
+  </p>
+  <p>
+    – Shakuntala Devi
+  </p>
+</div>
+`;

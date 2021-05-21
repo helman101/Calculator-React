@@ -73,9 +73,9 @@ describe('calculate', () => {
           const result = calculate({ total: '2', next: '5', operation: '+' }, '+');
           expect(result.next).toBe('');
         });
-        it('return an object with operation equal to null', () => {
-          const result = calculate({ total: '2', next: '5', operation: '+' }, '+');
-          expect(result.operation).toBe(null);
+        it('return an object with operation equal to the new buttonName', () => {
+          const result = calculate({ total: '2', next: '5', operation: '+' }, '%');
+          expect(result.operation).toBe('%');
         });
       });
     });
