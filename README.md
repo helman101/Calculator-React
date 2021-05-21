@@ -28,6 +28,11 @@ To set up a local copy of the project
 - `cd Calculator-React`
 - `npm install`
 
+### Run tests
+
+- Go to your terminal
+- Run ```npm test``` to run all the tests.
+
 ## Run locally
 
 - Now you are ready to run a local server
