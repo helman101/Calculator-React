@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="undefined undefined undefined undefined"
+>
+  <h1>
+    Let’s do some math!
+  </h1>
+  <div
+    className="undefined undefined undefined undefined"
+  >
+    <div
+      className="undefined undefined undefined"
+    >
+      <p>
+        0
+      </p>
+    </div>
+    <div
+      className="undefined undefined"
+    >
+      <div
+        className="undefined"
+      >
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="AC"
+        >
+          AC
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="+/-"
+        >
+          +/-
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="%"
+        >
+          %
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="÷"
+        >
+          ÷
+        </button>
+      </div>
+      <div
+        className="undefined"
+      >
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="7"
+        >
+          7
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="8"
+        >
+          8
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="9"
+        >
+          9
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="X"
+        >
+          X
+        </button>
+      </div>
+      <div
+        className="undefined"
+      >
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="4"
+        >
+          4
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="5"
+        >
+          5
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="6"
+        >
+          6
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="-"
+        >
+          -
+        </button>
+      </div>
+      <div
+        className="undefined"
+      >
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="1"
+        >
+          1
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="2"
+        >
+          2
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="3"
+        >
+          3
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="+"
+        >
+          +
+        </button>
+      </div>
+      <div
+        className="undefined"
+      >
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="0"
+        >
+          0
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="."
+        >
+          .
+        </button>
+        <button
+          className="undefined undefined undefined"
+          onClick={[Function]}
+          type="button"
+          value="="
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

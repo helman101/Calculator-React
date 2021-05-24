@@ -25,12 +25,23 @@ const calculate = (data, buttonName) => {
       break;
 
     case '=':
+      if (next === '') {
+        return { total, next, operation };
+      }
       total = (operate(total, next, operation)).toString();
       next = '';
+      operation = null;
+
       break;
 
     default:
-      operation = buttonName;
+      if (operation === null) {
+        operation = buttonName;
+      } else {
+        total = (operate(total, next, operation)).toString();
+        next = '';
+        operation = buttonName;
+      }
       break;
   }
 
